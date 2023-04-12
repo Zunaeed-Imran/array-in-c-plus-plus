@@ -13,7 +13,7 @@ int main() {
     cin >> array [i];
   }
   for (int i = 0; i < n; i++) {
-    sum = sum + array [i];
+    sum += array [i];
   }
   cout << "sum is : " << sum;
   return 0;
